@@ -1,0 +1,63 @@
+.btn {
+    background-color:#f2b307;
+    border: black;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 16px;
+    margin: 3px 1.5px;
+    transition: 0.3s;
+  }
+ .dropdown-menu:hover{
+     background-color:palegreen;
+     color:white;
+}
+.btn:hover {
+    background-color: #3e8e41;
+    color:white;
+  }
+ 
+.img {
+    position: relative;
+    float: left;
+    width:  125px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+  }
+  
+  
+  .thumbnail{
+    position: relative;
+    width: 430px;
+    height: 380px;
+    padding:10px;
+    border-width:thin,black;
+    margin-bottom:25px;
+    margin-left:25px;
+    margin-right:20px;
+    margin-top:20px;
+  }
+  
+  .thumbnail img {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    height: 53%;
+    margin-right: 15px;
+    width: auto;
+    padding-block-end:20px;
+    padding-left: 20px;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+  }
+  
+  h3 
+  {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
